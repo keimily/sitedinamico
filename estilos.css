@@ -1,0 +1,32 @@
+:root{
+   --cinza: #aaa;
+   --vermelho: #e93d50;
+   --vermelho-escuro: #af303f;
+   --branca: #fff;
+   --luz: rgo(229,255,0)
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family:'monstserrat',sans-serif;
+    min-height: 100vh;
+}
+
+h1{
+    color: var(--branca);
+    margin-bottom: 20px;
+    font-size: 2rem;  
+}
+
+  .teclado {
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+    box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+    border-radius: 30px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
